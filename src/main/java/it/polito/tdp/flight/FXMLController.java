@@ -9,7 +9,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
-//controller del turno A --> modificare per turno B
+//controller del turno A --> switchare al branch master_turnoB per turno B
 
 public class FXMLController {
 	
