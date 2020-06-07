@@ -9,16 +9,16 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
-//controller del turno A --> modificare per turno B
+//controller del turno B --> switchare al branch master_turnoA per turno A
 
 public class FXMLController {
 	
 	private Model model;
 
-    @FXML
-    private ResourceBundle resources;
-
-    @FXML
+	@FXML
+	private ResourceBundle resources;
+	
+	@FXML
     private URL location;
 
     @FXML
@@ -47,7 +47,7 @@ public class FXMLController {
         assert txtResult != null : "fx:id=\"txtResult\" was not injected: check your FXML file 'Flight.fxml'.";
 
     }
-
+	    
 	public void setModel(Model model) {
 		this.model = model;
 	}

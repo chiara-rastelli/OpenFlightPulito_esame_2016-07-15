@@ -13,7 +13,7 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.flight.FXMLController">
    <top>
-      <Label text="Flight (Tema d'esame A -  15/07/2016)" BorderPane.alignment="CENTER">
+      <Label text="Flight (Tema d'esame B -  15/07/2016)" BorderPane.alignment="CENTER">
          <BorderPane.margin>
             <Insets top="5.0" />
          </BorderPane.margin></Label>
@@ -32,7 +32,7 @@
                 <RowConstraints prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Label prefHeight="17.0" prefWidth="176.0" text="Distanza massima (km)" />
+                  <Label prefHeight="17.0" prefWidth="176.0" text="Distanza minima (km)" />
                   <Label text="Numero K di passeggeri" GridPane.rowIndex="1" />
                   <Button mnemonicParsing="false" onAction="#doSimula" text="Inizia Simulazione" GridPane.columnIndex="2" GridPane.rowIndex="1" />
                   <Button alignment="TOP_LEFT" mnemonicParsing="false" onAction="#doCreaGrafo" prefHeight="27.0" prefWidth="129.0" text="Seleziona Rotte" GridPane.columnIndex="2" />
